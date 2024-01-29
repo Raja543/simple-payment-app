@@ -7,7 +7,7 @@ import { SubHeading } from "../components/SubHeading"
 import axios from "axios";
 import { useNavigate } from "react-router-dom"
 
-export const Signup = () => {
+const Signup = () => {
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [username, setUsername] = useState("");
@@ -48,3 +48,5 @@ export const Signup = () => {
     </div>
   </div>
 }
+
+export default Signup;

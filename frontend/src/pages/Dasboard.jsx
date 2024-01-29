@@ -2,7 +2,7 @@ import { Appbar } from "../components/Appbar"
 import { Balance } from "../components/balance"
 import { Users } from "../components/Users"
 
-export const Dashboard = () => {
+const Dashboard = () => {
     return <div>
         <Appbar />
         <div className="m-8">
@@ -11,3 +11,5 @@ export const Dashboard = () => {
         </div>
     </div>
 }
+
+export default Dashboard;

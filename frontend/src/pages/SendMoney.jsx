@@ -2,7 +2,7 @@ import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
 
-export const SendMoney = () => {
+const SendMoney = () => {
   const [searchParams] = useSearchParams();
   const id = searchParams.get("id");
   const name = searchParams.get("name");
@@ -67,3 +67,5 @@ export const SendMoney = () => {
     </div>
   );
 };
+
+export default SendMoney;
